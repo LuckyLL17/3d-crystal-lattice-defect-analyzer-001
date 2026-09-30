@@ -1,0 +1,12 @@
+# 坏样品 1：必填字段缺失
+# 缺少 _cell_length_b / _cell_length_c，且原子坐标列缺少 _atom_site_fract_z
+# 预期结果：导入被拒绝（字段缺失），界面保留当前模型
+data_BrokenMissingCell
+_chemical_formula_sum   'Fe'
+_cell_length_a          2.8665
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+Fe1 0.0 0.0
+Fe2 0.5 0.5
